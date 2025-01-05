@@ -1,0 +1,173 @@
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #ffffff, #e6f7ff);
+  color: #333;
+  text-align: center;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(to right, #0077cc, #005fa3);
+  color: white;
+  padding: 1.rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.screen {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.screen:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Section Styling */
+section {
+  margin: 2rem 0;
+}
+
+section h3 {
+  color: #0077cc;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #0077cc;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+section p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Form Styles */
+form {
+  margin: 1.5rem 0;
+  text-align: left;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #0077cc;
+}
+
+form input, form select, textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+form input:focus, form select:focus, textarea:focus {
+  border-color: #0077cc;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background: linear-gradient(to right, #0077cc, #005fa3);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  border-radius: 500rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: linear-gradient(to right, #005fa3, #003e73);
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* Navigation */
+nav a {
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: bold;
+  margin: 0 15px;
+  font-size: 1.1rem;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+nav a:hover {
+  color: #005fa3;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Special Section Styling */
+#biometric-scan {
+  background: #eef6ff;
+  border: 2px dashed #0077cc;
+  padding: 1.5rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+
+#transaction-history {
+  background: #f9fff9;
+  border-left: 4px solid #28a745;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  padding: 1rem 0;
+  margin-top: 18rem;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .screen {
+    padding: 1.5rem;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  form input, form select, textarea {
+    font-size: 0.9rem;
+  }
+}

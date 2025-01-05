@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Financial App - Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body{
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+
+  <!-- Home Screen -->
+  <div id="home-screen" class="screen active">
+    <header>
+      <img src="./DALL·E 2025-01-05 03.30.04 - A modern, professional logo for a financial app. The logo should feature a combination of a dollar sign and a graph or chart symbol, representing fina.webp" height="60" width="60" alt="App Logo" class="logo">
+      <h1>Financial App</h1>
+    </header>
+    
+    <div class="controls">
+      <label for="language">Select Language: </label>
+      <select id="language" onchange="changeLanguage()">
+        <option value="en">English</option>
+        <option value="es">Spanish</option>
+        <option value="fr">French</option>
+      </select>
+      <button id="voice-toggle" onclick="toggleVoiceMode()">Voice Mode: Off</button>
+    </div>
+
+    <nav>
+      <h2>Navigate to Pages:</h2>
+      
+        <a href="user-info.html">User Info</a>&nbsp;&nbsp;&nbsp;
+        <a href="dashboard.html">Dashboard</a>&nbsp;&nbsp;&nbsp;
+        <a href="biometric.html">Biometric Authentication</a>&nbsp;&nbsp;&nbsp;
+        <a href="transaction.html">Transaction</a>&nbsp;&nbsp;&nbsp;
+        <a href="periodic-updates.html">Periodic Updates</a>&nbsp;&nbsp;&nbsp;
+        <a href="feedback.html">Feedback</a>&nbsp;&nbsp;&nbsp;
+        <a href="settings.html">Settings</a>
+      
+    </nav>
+  </div>
+
+  <script>
+    let voiceMode = false;
+
+    function toggleVoiceMode() {
+      voiceMode = !voiceMode;
+      const voiceButton = document.getElementById('voice-toggle');
+      voiceButton.textContent = `Voice Mode: ${voiceMode ? 'On' : 'Off'}`;
+    }
+
+    function changeLanguage() {
+      const lang = document.getElementById('language').value;
+      console.log(`Language changed to: ${lang}`);
+    }
+  </script>
+
+<footer>
+  <div class="container">
+      <p>&copy; 2025 EY Techathon 5.0. All rights reserved.</p>
+  </div>
+</footer>
+
+
+</body>
+</html>
