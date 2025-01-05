@@ -11,20 +11,40 @@ Our platform leverages AI, machine learning (ML), natural language processing (N
 
 
 Personalized financial education in regional languages.
+
 Voice-based advisory and offline access to ensure usability in low-connectivity areas.
+
 Gamified learning modules to engage users and promote financial literacy.
+
 Integration with UPI, digital wallets, and biometric authentication for secure and seamless transactions.
-Impact Goals
+
+
+Impact Goals:
+
 Improve financial literacy by 75-85%.
+
 Onboard 60-70% of unbanked women.
+
 Boost financial confidence by 80%.
-Key Features
+
+
+Key Features:
+
 AI-driven recommendations for budgeting and investments.
+
 Blockchain security for safe transactions.
+
 Community support tools, connecting users to mentors and entrepreneurs.
+
 Real-time financial advice via AI-powered chatbots.
-Technology Stack
+
+
+Technology Stack:
+
 Programming: Python, JavaScript, Flutter
+
 APIs: UPI, Google Maps, payment gateways
+
 Infrastructure: Cloud for data storage and processing, Blockchain for security
+
 
