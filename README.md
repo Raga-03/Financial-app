@@ -2,10 +2,13 @@
 We are thrilled to present our innovative solution for EY Techathon 5.0, addressing the critical challenge of financial inclusion in rural India. Our project, developed by Team TechEnthusiasts, is an AI-powered financial advisory platform designed to empower rural populations, especially women, by enhancing financial literacy, promoting digital adoption, and providing secure financial services.
 
 The Problem:
+
 Over 190 million rural Indians, primarily women, face barriers to financial inclusion due to low financial literacy, limited access to formal banking services, and cultural challenges. These issues lead to poor financial decisions, debt cycles, and hinder economic growth on personal and national levels.
 
 Our Solution:
+
 Our platform leverages AI, machine learning (ML), natural language processing (NLP), blockchain, and cloud computing to provide:
+
 
 Personalized financial education in regional languages.
 Voice-based advisory and offline access to ensure usability in low-connectivity areas.
